@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+/* Navbar */
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #06060f;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bolder;
+}
+
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, .75);
+}
+
+.dropdown-menu {
+    background-color: #06060f;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, .5);
+    background-color: #06060f;
+}
+
+.navbar-nav a:hover {
+    color: rgba(255, 255, 255, .75);
+    background-color: #06060f;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: rgba(255, 255, 255, 1);
+    background-color: #66c0f4;
+    border-color: #66c0f4;
+    margin-bottom: 2px;
+}
+

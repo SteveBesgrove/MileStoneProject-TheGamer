@@ -64,3 +64,18 @@ The wireframes were created using Balsamiq.
 ### Surface (the design)
 
 I wanted to make a fun and visually attractive website allowing usability for all.
+
+**Colour Palette**  
+I decided you use darker background colours with white-out type for the easiest viewability.
+
+**Typography**  
+All fonts have been imported from [Google Fonts.](https://fonts.google.com/)
+
+I decided to use Open Sans for all of my copy, as it's an easy to read font with plenty of styles
+
+**Imagery**  
+Images have been sourced from the [Steam website](https://store.steampowered.com/) and the relevant games. 
+
+**Iconography**  
+Icons have been sourced from [fontawesome](https://fontawesome.com/).
+
