@@ -4,23 +4,23 @@ body {
     font-family: Open Sans, sans-serif;
 }
 
-/* Navbar */
+/*------------------------------------------------- Navbar */
 
 .nav-container {
-    position: absolute;
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
 }
 
 .navbar {
+    position: fixed;
     margin-bottom: 0;
     border: 0;
     width: 100%;
     background-color: #06060f;
     box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+    z-index: 1;
 }
 
 .navbar .navbar-toggler {
@@ -68,3 +68,50 @@ body {
     margin-bottom: 2px;
 }
 
+/*------------------------------------------------- section */
+
+.about {
+    text-align: center;
+    position: absolute;
+    margin-top: 63.5px;
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+/*------------------------------------------------- footer */
+
+.footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    height: 63.5px;
+    width: 100%;
+    background-color: #06060f;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+    text-align: center;
+}
+
+.social-container {
+    list-style: none;
+    padding: 0px;
+}
+
+.social-links {
+    margin-top: 9px;
+}
+
+.social-links a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(255, 255, 255, .5);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-links a:hover {
+    color: rgba(255, 255, 255, .75);
+}
