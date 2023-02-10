@@ -3,7 +3,6 @@ python3 -m http.server
 # **The Gamer**
 
 ## User Experience (UX)
-___
 
 ### Goals
 
@@ -19,7 +18,6 @@ As a Returning Visitor:
   - I would like to navigate to relevant links to external sites with ease.
 
 ## Design (UXD)
-___
 
 ### Strategy
 
