@@ -49,7 +49,7 @@
 
     <!-- About -->
     <div class="container-wrapper--blue">
-        <div class="container about-container">
+        <div class="container content-container">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="gamer-image">
@@ -101,9 +101,9 @@
 
     <!-- Games -->
     <div class="container-wrapper--going-down" id="cyber">
-        <div class="container cyber-container">
+        <div class="container content-container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-xl-4">
                     <div class="cyber-logo">
                         <img src="assets/images/Cyberpunk001.jpg" alt="CyberPunk Logo">
                     </div>
@@ -118,26 +118,86 @@
                                 modification.</p>
                         </div>
                     </div>
+                    <div class="game-section-branded-logos d-none d-xl-block">
+                        <ul class="brand-logo-container list-inline">
+                            <li class="brand-logo list-inline-item">
+                                <a href="https://www.twitch.tv/" target="_blank"><img src="assets/images/Twitch001.jpg"
+                                        alt="Twitch-logo" aria-hidden="true">
+                                    <span class="sr-only">Twitch</span>
+                                </a>
+                            </li>
+                            <li class="brand-logo list-inline-item">
+                                <a href="https://www.youtube.com/" target="_blank"><img
+                                        src="assets/images/YouTube001.jpg" alt="YouTube-logo" aria-hidden="true">
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-xl-8">
                     <div class="cyber-video-wrap">
                         <div class="cyber-video">
-                            <!-- <iframe width="420" height="315" src="https://cdn.akamai.steamstatic.com/steam/apps/256812920/movie480_vp9.webm?t=1611326875">
-                        </iframe> -->
-                            <video controls autoplay muted>
+                            <video controls autoplay muted loop>
                                 <source src="assets/images/CyberpunkLaunch.webm" type="video/webm">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                     </div>
                     <div class="cyber-images">
-
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="3000">
+                                    <img src="assets/images/Cyberpunk002.jpg" class="d-block w-100"
+                                        alt="CyberPunk Screenshot001">
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <img src="assets/images/Cyberpunk003.jpg" class="d-block w-100"
+                                        alt="CyberPunk Screenshot002">
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <img src="assets/images/Cyberpunk004.jpg" class="d-block w-100"
+                                        alt="CyberPunk Screenshot003">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game-section-branded-logos d-none d-md-block d-lg-none">
+                        <ul class="brand-logo-container list-inline">
+                            <li class="brand-logo list-inline-item">
+                                <a href="https://www.twitch.tv/" target="_blank"><img src="assets/images/Twitch001.jpg"
+                                        alt="Twitch-logo" aria-hidden="true">
+                                    <span class="sr-only">Twitch</span>
+                                </a>
+                            </li>
+                            <li class="brand-logo list-inline-item">
+                                <a href="https://www.youtube.com/" target="_blank"><img
+                                        src="assets/images/YouTube001.jpg" alt="YouTube-logo" aria-hidden="true">
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-wrapper--going-up" id="rd2">
+    <!-- <div class="container-wrapper--going-up" id="rd2">
         <div class="container rd2-container">
             <div class="row">
                 <div class="col-12 col-md-6">

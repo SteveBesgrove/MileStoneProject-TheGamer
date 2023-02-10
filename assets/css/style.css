@@ -17,6 +17,10 @@ body {
     background-image: linear-gradient(rgba(17, 18, 44, .8), rgba(17, 18, 44, 1));
 }
 
+.content-container {
+    padding-bottom: 50px;
+}
+
 /*------------------------------------------------- Navbar */
 
 .nav-container {
@@ -83,12 +87,6 @@ body {
 
 /*------------------------------------------------- About Section*/
 
-.about-container {
-    position: relative;
-    width: 100%;
-    height: 960px;
-}
-
 .container-wrapper--blue {
     padding-top: 63.5px;
     background-color: #11122c;
@@ -97,7 +95,7 @@ body {
 .gamer-image {
     display: flex;
     justify-content: center;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 .gamer-image img {
@@ -110,10 +108,9 @@ body {
 
 .welcome-text {
     margin: auto;
-    max-width: 400px;
     padding-top: 50px;
     color: #66c0f4;
-    text-align: justify;
+    text-align: left;
 }
 
 .welcome-text h3 {
@@ -126,7 +123,8 @@ body {
 }
 
 .brand-logo-container {
-    padding-top: 5px;
+    margin: auto;
+    padding-top: 28px;
     text-align: center;
 }
 
@@ -138,17 +136,6 @@ body {
 }
 
 /*------------------------------------------------- Games */
-
-/* ---------- Containers */
-
-.cyber-container,
-.rd2-container,
-.sod2-container,
-.tw3-container {
-    position: relative;
-    width: 100%;
-    height: 1000px;
-}
 
 /* ---------- Logos */
 
@@ -180,6 +167,24 @@ body {
     box-shadow: 0px 0px 80px #66c0f4;
 }
 
+/* ---------- Images */
+
+.cyber-images {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.carousel {
+    width: 400px;
+    height: auto;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0px 0px 80px #66c0f4;
+}
+
 /* ---------- Text */
 
 .cyber-text-wrap {
@@ -188,7 +193,7 @@ body {
 }
 
 .cyber-text {
-    margin-top: 30px;
+    margin-top: 40px;
     max-width: 400px;
     padding: 20px 20px 10px 20px;
     color: #66c0f4;
@@ -245,39 +250,104 @@ body {
 
 /*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+/* ---------- Games */
+
+@media (min-width: 1200px) {
+
+    .brand-logo-container {
+        padding-top: 33px;
+    }
+    
+    /* ---------- Logos */
+
+    .cyber-logo img {
+        width: 350px;
+    }
+
+    /* ---------- Text */
+
+    .cyber-text-wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cyber-text {
+        margin-top: 40px;
+        max-width: 350px;
+        padding: 20px 20px 10px 20px;
+        color: #66c0f4;
+        background-color: rgb(17 18 44 / 75%);
+        border-radius: 10px;
+        box-shadow: 0px 0px 80px #66c0f4;
+    }
+
+    /* ---------- video */
+
+    .cyber-video {
+        display: flex;
+        justify-content: right;
+        padding-top: 45px;
+    }
+
+    .cyber-video video {
+        width: 600px;
+        box-shadow: 0px 0px 80px #66c0f4;
+    }
+
+    /* ---------- Images */
+
+    .carousel-inner {
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 80px #66c0f4;
+    }
+
+    .carousel {
+        width: 600px;
+        height: auto;
+    }
+
+    .cyber-images {
+        display: flex;
+        justify-content: right;
+        padding-top: 45px;
+    }
+}
 
 /*------------------------------------------------- Large devices (desktops, 992px and up) */
 
 /* ---------- About */
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
     .gamer-image {
-        display: flex;
-        justify-content: center;
         padding-top: 70px;
     }
+
+    .brand-logo-container {
+        padding-top: 30px;
+    }
+
+    .cyber-images {
+        display: flex;
+        justify-content: center;
+        padding-top: 41px;
+    }
+
+    .carousel img {
+        width: 400px;
+        height: 280px;
+        object-fit: cover;
+    }
+
 }
 
 /*------------------------------------------------- Medium devices (tablets, 768px and up) */
 
 /* ---------- About */
 
-@media (min-width: 768px) {
-    .about-container {
-        height: 530px;
-    }
-
-}
-
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .about-container {
-        height: 560px;
-    }
 
     .gamer-image {
-        display: flex;
-        justify-content: center;
         padding-top: 120px;
     }
 
@@ -301,33 +371,31 @@ body {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .cyber-container,
-    .rd2-container,
-    .sod2-container,
-    .tw3-container {
-        position: relative;
-        width: 100%;
-        height: 670px;
-    }
-
-    .cyber-logo {
-        display: flex;
-        justify-content: center;
-        padding-top: 45px;
-    }
-    
     .cyber-logo img {
         width: 330px;
+    }
+
+    .cyber-video video {
+        width: 330px;
+        box-shadow: 0px 0px 40px #66c0f4;
+    }
+
+    .carousel-inner {
+        box-shadow: 0px 0px 40px #66c0f4;
+    }
+
+    .game-section-branded-logos {
+        padding-top: 43px;
+        text-align: center;
+    }
+
+    .game-section-branded-logos img {
+        width: 130px;
         height: auto;
         border-radius: 10px;
-        box-shadow: 0px 0px 80px #66c0f4;
+        box-shadow: 0px 0px 10px #66c0f4;
     }
 }
-
-
-/*------------------------------------------------- Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {}
 
 /*------------------------------------------------- MY TESTS */
 
