@@ -74,7 +74,7 @@ body {
 .about-container {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 960px;
 }
 
 .container-wrapper--blue {
@@ -85,8 +85,7 @@ body {
 .gamer-image {
     display: flex;
     justify-content: center;
-    /* padding-top: 50px; */
-    
+    padding-top: 45px;
 }
 
 .gamer-image img {
@@ -95,7 +94,6 @@ body {
     border-radius: 50%;
     border: 25px solid #66c0f4;
     box-shadow: 0px 0px 50px #66c0f4;
-    
 }
 
 .welcome-text {
@@ -103,16 +101,28 @@ body {
     max-width: 400px;
     padding-top: 50px;
     color: #66c0f4;
-    text-align: center;
+    text-align: justify;
 }
 
-.welcome-text h2 {
+.welcome-text h3 {
     font-weight: bolder;
     font-style: italic;
 }
 
 .welcome-text p {
     font-style: italic;
+}
+
+.brand-logo-container {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.brand-logo img {
+    width: 130px;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px #66c0f4;
 }
 
 /*------------------------------------------------- Footer */
@@ -152,6 +162,62 @@ body {
     color: rgba(255, 255, 255, .75);
 }
 
+/*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+/*------------------------------------------------- Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .gamer-image {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+    }
+}
+
+/*------------------------------------------------- Medium devices (tablets, 768px and up) */
+
+/* ---------- About */
+
+@media (min-width: 768px) {
+    .about-container {
+        height: 530px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-container {
+        height: 560px;
+    }
+
+    .gamer-image {
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+    }
+
+    .gamer-image img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 15px solid #66c0f4;
+        box-shadow: 0px 0px 50px #66c0f4;
+    }
+
+    .brand-logo img {
+        width: 100px;
+        height: auto;
+        border-radius: 10%;
+        box-shadow: 0px 0px 10px #66c0f4;
+    }
+}
+
+/*------------------------------------------------- Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
 /*------------------------------------------------- MY TESTS */
 
 .redbox {
@@ -161,12 +227,3 @@ body {
     background-color: red;
     padding-bottom: 63.5px;
 }
-
-/* .center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-} */
