@@ -130,8 +130,6 @@ body {
 }
 
 .brand-logo img {
-    margin: 0;
-    width: 100%;
     max-width: 80px;
     height: auto;
     border-radius: 10px;
@@ -274,6 +272,17 @@ body {
 
 .social-links a:hover {
     color: rgba(255, 255, 255, .75);
+}
+
+/*------------------------------------------------------------------------------------------------------- Media Queries */
+
+/*------------------------------------------------- Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .brand-logo img {
+        max-width: 130px;
+        height: auto;
+    }
 }
 
 /*------------------------------------------------- Medium devices (tablets, 768px to 992px) */
