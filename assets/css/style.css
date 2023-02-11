@@ -111,7 +111,7 @@ body {
     margin: auto;
     padding-top: 50px;
     color: #66c0f4;
-    text-align: left;
+    text-align: center;
 }
 
 .welcome-text h3 {
@@ -124,11 +124,13 @@ body {
 }
 
 .brand-logo-container {
+    margin: 0;
     padding-top: 28px;
     text-align: center;
 }
 
 .brand-logo img {
+    margin: 0;
     width: 100%;
     max-width: 80px;
     height: auto;
@@ -152,7 +154,7 @@ body {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 80px #66c0f4;
+    box-shadow: 0px 0px 40px #66c0f4;
 }
 
 /* ---------- video */
@@ -168,7 +170,7 @@ body {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 80px #66c0f4;
+    box-shadow: 0px 0px 40px #66c0f4;
 }
 
 /* ---------- Images */
@@ -187,7 +189,7 @@ body {
 
 .carousel-inner {
     border-radius: 10px;
-    box-shadow: 0px 0px 80px #66c0f4;
+    box-shadow: 0px 0px 40px #66c0f4;
 }
 
 
@@ -205,7 +207,7 @@ body {
     color: #66c0f4;
     background-color: rgb(17 18 44 / 75%);
     border-radius: 10px;
-    box-shadow: 0px 0px 80px #66c0f4;
+    box-shadow: 0px 0px 40px #66c0f4;
 }
 
 .cyber-text h3 {
@@ -257,6 +259,26 @@ body {
 
 .social-links a:hover {
     color: rgba(255, 255, 255, .75);
+}
+
+/*------------------------------------------------- Medium devices (tablets, 768px to 992px) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gamer-image {
+        padding-top: 80px;
+    }
+
+    .gamer-image img {
+        border: 20px solid #66c0f4;
+    }
+}
+
+/*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .cyber-text {
+        padding: 20px 20px 3px 20px;
+    }
 }
 
 /*------------------------------------------------- MY TESTS */
