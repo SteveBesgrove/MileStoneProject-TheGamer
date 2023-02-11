@@ -136,18 +136,25 @@ body {
     box-shadow: 0px 0px 10px #66c0f4;
 }
 
+.extra-brand-logo img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #66c0f4; 
+}
+
 
 /*------------------------------------------------- Games */
 
 /* ---------- Logos */
 
-.cyber-logo {
+.game-logo {
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
 
-.cyber-logo img {
+.game-logo img {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -162,8 +169,6 @@ body {
 }
 
 .extra-logo img {
-    margin: 0;
-    width: 100%;
     max-width: 80px;
     height: auto;
     border-radius: 10px;
@@ -172,13 +177,13 @@ body {
 
 /* ---------- video */
 
-.cyber-video {
+.game-video {
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
 
-.cyber-video video {
+.game-video video {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -188,7 +193,7 @@ body {
 
 /* ---------- Images */
 
-.cyber-images {
+.game-images {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -208,12 +213,12 @@ body {
 
 /* ---------- Text */
 
-.cyber-text-wrap {
+.game-text-wrap {
     display: flex;
     justify-content: center;
 }
 
-.cyber-text {
+.game-text {
     margin-top: 50px;
     max-width: 500px;
     padding: 20px 20px 10px 20px;
@@ -223,17 +228,17 @@ body {
     box-shadow: 0px 0px 40px #66c0f4;
 }
 
-.cyber-text h3 {
+.game-text h3 {
     font-weight: bolder;
     font-style: italic;
 }
 
-.cyber-text h5 {
+.game-text h5 {
     font-weight: bolder;
     font-style: italic;
 }
 
-.cyber-text p {
+.game-text p {
     font-style: italic;
 }
 
@@ -295,12 +300,19 @@ body {
     .gamer-image img {
         border: 20px solid #66c0f4;
     }
+
+    .extra-logo img {
+        max-width: 10px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #66c0f4;
+    }
 }
 
 /*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .cyber-text {
+    .game-text {
         padding: 20px 20px 3px 20px;
     }
 }
