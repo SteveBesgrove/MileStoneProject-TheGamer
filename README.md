@@ -1,5 +1,3 @@
-python3 -m http.server
-
 # **The Gamer**
 
 ## User Experience (UX)
@@ -57,7 +55,9 @@ A rough wireframe blueprint of the website was created showing an interpretation
 
 The wireframes were created using Balsamiq.
 
-[View wireframes here.](https://res.cloudinary.com/dmvipima8/image/upload/v1675767738/Gamer_jjs4e9.png)
+[View wireframes here.](https://res.cloudinary.com/dmvipima8/image/upload/v1676300061/THEGAMER_wireframes_xe5rnz.png)
+
+[View wireframes here.](assets/images/THEGAMER wireframes.png)
 
 ### Surface (the design)
 
