@@ -242,11 +242,18 @@ body {
     font-style: italic;
 }
 
+/*------------------------------------------------- Newsletter */
+
+.newsletter-container{
+    margin-bottom: 63.5px;
+    padding-bottom: 50px;
+}
+
 /*------------------------------------------------- Footer */
 
 .footer {
     position: fixed;
-    z-index: 1;
+    z-index: 20;
     left: 0;
     bottom: 0;
     height: 63.5px;
