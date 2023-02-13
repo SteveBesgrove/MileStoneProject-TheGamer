@@ -148,7 +148,7 @@ body {
 
 /* ---------- Logos */
 
-.game-logo {
+.game-logo a {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -288,6 +288,7 @@ body {
         max-width: 130px;
         height: auto;
     }
+
 }
 
 /*------------------------------------------------- Medium devices (tablets, 768px to 992px) */
@@ -307,13 +308,21 @@ body {
         border-radius: 10px;
         box-shadow: 0px 0px 10px #66c0f4;
     }
+
+    #rd2-text {
+        padding: 20px 20px 23px 20px;
+    }
 }
 
 /*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .game-text {
+    #cyber-text {
         padding: 20px 20px 3px 20px;
+    }
+
+    #rd2-text {
+        padding: 20px 20px 23px 20px;
     }
 }
 
