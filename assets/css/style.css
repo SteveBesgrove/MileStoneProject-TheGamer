@@ -140,7 +140,7 @@ body {
     max-width: 80px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #66c0f4; 
+    box-shadow: 0px 0px 10px #66c0f4;
 }
 
 
@@ -312,6 +312,22 @@ body {
     #rd2-text {
         padding: 20px 20px 23px 20px;
     }
+
+    #sod2-text {
+        margin-top: 31px;
+        padding: 20px 20px 4px 20px;
+
+    }
+}
+
+/*------------------------------------------------- Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #sod2-text {
+        margin-top: 33px;
+        padding: 20px 20px 4px 20px;
+
+    }
 }
 
 /*------------------------------------------------- Extra large devices (large desktops, 1200px and up) */
@@ -322,7 +338,11 @@ body {
     }
 
     #rd2-text {
-        padding: 20px 20px 23px 20px;
+        padding: 20px 20px 3px 20px;
+    }
+
+    #sod2-text {
+        padding: 20px 20px 3px 20px;
     }
 }
 
