@@ -280,6 +280,13 @@ body {
     font-style: italic;
 }
 
+.btn--grey {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2px;
+}
+
 /*------------------------------------------------- Footer */
 
 .footer {
