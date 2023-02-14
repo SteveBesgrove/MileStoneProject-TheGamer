@@ -244,10 +244,27 @@ body {
 
 /*------------------------------------------------- Newsletter */
 
-.newsletter-container{
+.newsletter-container {
     margin-bottom: 63.5px;
     padding-bottom: 50px;
 }
+
+.newsletter-text-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1075px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    color: #66c0f4;
+    background-color: rgb(17 18 44 / 75%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px #66c0f4;
+}
+
+/* .form-control{
+    max-width: 1000px;
+    width: 100%;
+} */
 
 /*------------------------------------------------- Footer */
 
