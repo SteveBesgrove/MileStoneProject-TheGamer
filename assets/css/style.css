@@ -247,12 +247,13 @@ body {
 .newsletter-container {
     margin-bottom: 63.5px;
     padding-bottom: 50px;
+    height:610px;
 }
 
 .newsletter-text-wrap {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1075px;
+    max-width: 1073px;
     margin-top: 50px;
     padding: 20px 20px 20px 20px;
     color: #66c0f4;
@@ -261,10 +262,23 @@ body {
     box-shadow: 0px 0px 40px #66c0f4;
 }
 
-/* .form-control{
-    max-width: 1000px;
-    width: 100%;
-} */
+.newsletter-text-wrap h3 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.form-wrap {
+    margin-top: 25px;
+}
+
+.form-group label {
+    font-style: italic;
+}
+
+.form-group small {
+    color: rgba(255, 255, 255, .5);
+    font-style: italic;
+}
 
 /*------------------------------------------------- Footer */
 
@@ -311,6 +325,10 @@ body {
     .brand-logo img {
         max-width: 130px;
         height: auto;
+    }
+
+    .newsletter-container {
+        height: 600px;
     }
 
 }
@@ -370,14 +388,4 @@ body {
         padding: 20px 20px 3px 20px;
     }
 
-}
-
-/*------------------------------------------------- MY TESTS */
-
-.redbox {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: red;
-    padding-bottom: 63.5px;
 }
