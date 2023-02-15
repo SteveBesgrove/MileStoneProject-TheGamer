@@ -1,6 +1,9 @@
-[Link to THEGAMER](https://stevebesgrove.github.io/MileStoneProject-TheGamer/)
-
 # **The Gamer**
+
+The fictitious website of a popular Twitch streamer and Youtuber. The site will contain
+links to Twitch, Youtuber and Patreon. As well as showcase some of his favourite games using images and video clips.
+
+[Link to THEGAMER](https://stevebesgrove.github.io/MileStoneProject-TheGamer/)
 
 ## User Experience (UX)
 
