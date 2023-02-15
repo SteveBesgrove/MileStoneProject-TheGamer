@@ -6,9 +6,9 @@ As well as showcase some of his favourite games using images and video clips, wi
 
 [Link to THEGAMER](https://stevebesgrove.github.io/MileStoneProject-TheGamer/)
 
-![View wireframes here.](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER-HomeCROP.jpg?raw=true)
-<br/>
-<br/>
+![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER-HomeCROP.jpg?raw=true)
+<br>
+<br>
 # User Experience (UX)
 
 ## Goals
@@ -23,8 +23,8 @@ As a Returning Visitor:
 
   - I would like to navigate to required information with ease.
   - I would like to navigate to relevant links to external sites with ease.
-<br/>
-<br/>
+<br>
+<br>
 ## Design (UXD)
 
 ### **Strategy**
@@ -63,9 +63,7 @@ What dynamic constraints do we have to meet?
 
 A rough wireframe blueprint of the website was created showing an interpretation of all three platforms and showcasing its responsive design.
 
-The wireframes were created using Balsamiq.
-
-[View wireframes here.](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER%20wireframes.png?raw=true)
+The wireframes were created using Balsamiq. [View wireframes here.](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER%20wireframes.png?raw=true)
 
 ### **Surface (the design)**
 
@@ -75,9 +73,8 @@ I wanted to make a fun and visually attractive website allowing usability for al
 I decided you use darker background colours with white-out type for the easiest viewability.
 
 **Typography**  
-All fonts have been imported from [Google Fonts.](https://fonts.google.com/)
-
-I decided to use Open Sans for all of my copy, as it's an easy to read font with plenty of styles.
+All fonts have been imported from [Google Fonts.](https://fonts.google.com/).  
+I decided to use Open Sans for all of my copy, as it's an easy to read font with plenty of weights.
 
 **Imagery**  
 The images and video clips have been sourced from the [Steam website](https://store.steampowered.com/) and the relevant games.  
@@ -85,12 +82,29 @@ The gaming man image was creating using [Midjourney](https://www.midjourney.com/
 
 **Iconography**  
 Icons have been sourced from [fontawesome](https://fontawesome.com/).
-<br/>
-<br/>
+<br>
+<br>
 # Features
 
 - ### Navigation Bar
-    - The navigation bar is fixed to the top of each page and is only 40 pixels high so doesn't cover much content.
+    The navigation bar is fixed to the top of the page at 63.5px in height, containing a home bookmark, a game drop down menu and a newsletter signup bookmark. Its responsiveness can be seen as it changes between media sizes eventually becoming a burger menu.
+    <br>
+    <br>
+    Media devices 768px and above.
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/Header.jpg?raw=true)
+
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/GameDropDown.jpg?raw=true)
+    <br>
+    <br>
+    Media devices 576px to 767.98px. **The signup section has been shrunk to save space.**  
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HeaderSM.jpg?raw=true)
+    <br>
+    <br>
+    Media devices up to 575.98px. **The burger menu has been applied.**  
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HeaderXSM.jpg?raw=true)  
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HeaderXSMDropdown.jpg?raw=true)
+
+    
 
 ### Code  
 The code was been written using Bootstrap, CI lessons and [w3schools](https://www.w3schools.com/)
