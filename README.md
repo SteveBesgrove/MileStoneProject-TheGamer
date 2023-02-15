@@ -122,10 +122,10 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
 
 # Future Features
 - Popup image carousel
-    I would like to make the current image carousel into a pop-up (knowledge of JavaScript would be needed for this).
+    - I would like to make the current image carousel into a pop-up (knowledge of JavaScript would be needed for this).
 
 - Popup modal for the newsletter signup
-    I would like to make the “thank you for subscribing” pop-up in a linked form required modal, rather than opening in a new page (knowledge of JavaScript would be needed for this).
+    - I would like to make the “thank you for subscribing” pop-up in a linked form required modal, rather than opening in a new page (knowledge of JavaScript would be needed for this).
 
 # Testing
 
