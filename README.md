@@ -107,13 +107,47 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HomePage.jpg?raw=true)
 
 - ## The Games
-    Each game section contains a logo which is linked to Youtube (would be the corresponding playlist if it existed). A small description, a teaser video clip and image carousel.
+    Each game section contains a logo which is linked to Youtube (would be the corresponding playlist if it existed). A small description, a teaser video clip (Autoplay is on, but it's muted) and image carousel.
     <br>
     <br>
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/CyberpunkPage.jpg?raw=true)
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/RedDeadPage.jpg?raw=true)
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/SOD2Page.jpg?raw=true)
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/TW3Page.jpg?raw=true)
+
+- ## Sign up form
+    Is a basic form using required fields that would link to a newsletter subscription (currently a thank you page).
+    <br>
+    <br>
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/Form.jpg?raw=true)
+
+- ## Footer
+    The footer is fixed at the bottom of the screen, always allowing access to its containing links (Twitter, Twitch, Youtube and Patreon).
+    <br>
+    <br>
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/Footer.jpg?raw=true)
+
+# Future Features
+- ## Popup image carousel
+    I would like to make the current image carousel into a pop-up (knowledge of JavaScript would be needed for this).
+
+- ## Popup modal for the newsletter signup
+    I would like to make the “thank you for subscribing” pop-up in a linked form required modal, rather than opening in a new page (knowledge of JavaScript would be needed for this).
+
+# Testing
+
+## General Testing
+- The website had been tested on several browsers and my Samsung mobile phone. All internal bookmarks and external links work as expected. There appears to be a slight glitch on larger screen sizes when video clips begin to play (screen distortion that only effects Red Dead and State od Decay) not sure what causes it, but it rights itself if you scroll up or down the page. 
+
+## Google Lighhouse Testing
+- Passed
+
+## Validator Testing
+- The website had b
+
+
+
+
 
 ### Code  
 The code was been written using Bootstrap, CI lessons and [w3schools](https://www.w3schools.com/)
