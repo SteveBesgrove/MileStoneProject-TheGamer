@@ -1,13 +1,11 @@
 # **The Gamer**
 
 The fictitious website of a popular Twitch streamer and Youtuber. The site will contain
-links to Twitch, Youtube and Patreon.  
-As well as showcase some of his favourite games using images and video clips, with the option to sign up to a newsletter.
+links to Twitch, Youtube and Patreon. As well as showcase some of his favourite games using images and video clips, with the option to sign up to a newsletter.
 
 [Link to THEGAMER](https://stevebesgrove.github.io/MileStoneProject-TheGamer/)
 
 ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER-HomeCROP.jpg?raw=true)
-<br>
 
 # User Experience (UX)
 
@@ -23,7 +21,6 @@ As a Returning Visitor:
 
   - I would like to navigate to required information with ease.
   - I would like to navigate to relevant links to external sites with ease.
-<br>
 
 ## Design (UXD)
 
@@ -82,7 +79,6 @@ The gaming man image was creating using [Midjourney](https://www.midjourney.com/
 
 **Iconography**  
 Icons have been sourced from [fontawesome](https://fontawesome.com/).
-<br>
 
 # Features
 
