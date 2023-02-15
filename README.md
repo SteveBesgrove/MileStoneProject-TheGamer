@@ -9,6 +9,7 @@ As well as showcase some of his favourite games using images and video clips, wi
 ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER-HomeCROP.jpg?raw=true)
 <br>
 <br>
+
 # User Experience (UX)
 
 ## Goals
@@ -25,6 +26,7 @@ As a Returning Visitor:
   - I would like to navigate to relevant links to external sites with ease.
 <br>
 <br>
+
 ## Design (UXD)
 
 ### **Strategy**
