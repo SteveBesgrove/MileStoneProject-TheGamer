@@ -138,7 +138,7 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
 ## Validator Testing
 - W3C Markup Validator
   - Flagged the following: Duplicate ID carouselExampleIndicators.  (which was being used by my four carousels, I changed their Id's to make them individual solving the validator error).
-  <br><br>
+  <br>
 - W3C CSS Validator
   - Was clean.
 
