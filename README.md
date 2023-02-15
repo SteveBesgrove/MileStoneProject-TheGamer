@@ -152,6 +152,7 @@ The site was deployed to Github pages using the following steps:
 - The page will update and show: "Your site is live at https://stevebesgrove.github.io/MileStoneProject-TheGamer/".
 
 # Code  
-The code been written using the Bootstrap framework, [the Code Institutes lessons](https://codeinstitute.net/) and [w3schools](https://www.w3schools.com/).
+The website code been written using the Bootstrap framework, [the Code Institutes lessons](https://codeinstitute.net/) and [w3schools](https://www.w3schools.com/).  
+The header was adapted from the Code Institute Whiskey Drop mini project.
 
 
