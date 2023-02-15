@@ -137,13 +137,13 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
 # Testing
 
 ## General Testing
-- The website had been tested on several browsers and my Samsung mobile phone. All internal bookmarks and external links work as expected. There appears to be a slight glitch on larger screen sizes when video clips begin to play (screen distortion that only effects Red Dead and State od Decay) not sure what causes it, but it rights itself if you scroll up or down the page. 
+- The website had been tested on several browsers and my Samsung mobile phone. All internal bookmarks and external links work as expected. There appears to be a slight glitch on larger screen sizes when video clips begin to play (screen distortion that only effects Red Dead and State of Decay) not sure what causes it, but it rights itself if you scroll up or down the page. 
 
 ## Google Lighhouse Testing
-- Passed
+![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/LighthouseDesktop.jpg?raw=true)
 
 ## Validator Testing
-- The website had b
+- W3C Validator
 
 
 
