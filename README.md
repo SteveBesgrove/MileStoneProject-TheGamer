@@ -82,7 +82,7 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
 
 # Features
 
-- ### Navigation Bar
+- ## Navigation Bar
     The navigation bar is fixed to the top of the page at 63.5px in height, containing a home bookmark, a game drop down menu and a newsletter signup bookmark. Its responsiveness can be seen as it changes between media sizes eventually becoming a burger menu.
     <br>
     <br>
@@ -100,7 +100,20 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HeaderXSM.jpg?raw=true)  
     ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HeaderXSMDropdown.jpg?raw=true)
 
-    
+- ## Home
+    The home section contains an image of the fictitious gamer and a small description about him with this Twitch, Youtube and Patreon links.
+    <br>
+    <br>
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/HomePage.jpg?raw=true)
+
+- ## The Games
+    Each game section contains a logo which is linked to Youtube (would be the corresponding playlist if it existed). A small description, a teaser video clip and image carousel.
+    <br>
+    <br>
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/CyberpunkPage.jpg?raw=true)
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/RedDeadPage.jpg?raw=true)
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/SOD2Page.jpg?raw=true)
+    ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/TW3Page.jpg?raw=true)
 
 ### Code  
 The code was been written using Bootstrap, CI lessons and [w3schools](https://www.w3schools.com/)
