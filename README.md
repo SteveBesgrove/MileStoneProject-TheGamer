@@ -8,7 +8,6 @@ As well as showcase some of his favourite games using images and video clips, wi
 
 ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/THEGAMER-HomeCROP.jpg?raw=true)
 <br>
-<br>
 
 # User Experience (UX)
 
@@ -24,7 +23,6 @@ As a Returning Visitor:
 
   - I would like to navigate to required information with ease.
   - I would like to navigate to relevant links to external sites with ease.
-<br>
 <br>
 
 ## Design (UXD)
@@ -85,7 +83,7 @@ The gaming man image was creating using [Midjourney](https://www.midjourney.com/
 **Iconography**  
 Icons have been sourced from [fontawesome](https://fontawesome.com/).
 <br>
-<br>
+
 # Features
 
 - ### Navigation Bar
