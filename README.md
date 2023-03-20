@@ -40,6 +40,15 @@ Can we track and catalogue the content in an intuitive way?
 Is the technology appropriate?  
   - *Yes. The website contains game content that you would expect from a gaming website.*
 
+  Why are we so special? What sets us apart?  
+  - *It’s a unique website for the fictitious gamer.*
+
+  Tech considerations?  
+  - *Site is being made for the general public so will definitely have to be responsive as most will be viewing on mobile devices.*
+
+  Why would a user want this?  
+  - *For a more personal experience, the ability to watch their favourite fictitious gamer showcase gaming content and sign up for a personalised newsletter.*
+
 ### **Scope**
 
 The Scope plane defines the wants and needs of the user by asking the following questions.
@@ -129,18 +138,55 @@ Icons have been sourced from [fontawesome](https://fontawesome.com/).
 
 # Testing
 
-## General Testing
-- The website had been tested on several browsers and my Samsung mobile phone. All internal bookmarks and external links work as expected. 
+## Google Chrome Inspector
+- The website has been tested using the Google Chrome Inspector and is very responsive across all devices.
+
+## Header
+- All bookmark links work correctly and as expected. The dropdown menu works well, as does the burger menu on smaller screen devices.
+
+## Home
+- The external links all work as expected.
+
+## CyberPunk 2077
+- The CyberPunk 2077 logo link works as expected. (Would link to a playlist on Youtube if this was a real website).
+- The CyberPunk 2077 video works as expected. Autoplay is off and the video controls all work.
+- The CyberPunk 2077 carousel works as expected (auto rotations at a nice pace) and the navigation arrows work correctly.
+
+## Red Dead Redemption 2
+- The RD2 logo link works as expected. (Would link to a playlist on Youtube if this was a real website).
+- The RD2 video works as expected. Autoplay is off and the video controls all work.
+- The RD2 carousel works as expected (auto rotations at a nice pace) and the navigation arrows work correctly.
+
+## State of Decay 2
+- The SOD2 logo link works as expected. (Would link to a playlist on Youtube if this was a real website).
+- The SOD2 video works as expected. Autoplay is off and the video controls all work.
+- The SOD2 carousel works as expected (auto rotations at a nice pace) and the navigation arrows work correctly.
+
+## The Witcher 3
+- The TW3 logo link works as expected. (Would link to a playlist on Youtube if this was a real website).
+- The TW3 video works as expected. Autoplay is off and the video controls all work.
+- The TW3 carousel works as expected (auto rotations at a nice pace) and the navigation arrows work correctly.
+
+## Newsletter Signup
+- The form works as expected, each field is required and the form can not be completed unless it's filled out correctly.
+
+## Footer
+- The external links work as expected.
 
 ## Google Lighhouse Testing
 ![](https://github.com/SteveBesgrove/MileStoneProject-TheGamer/blob/main/assets/images/LighthouseDesktop.jpg?raw=true)
 
-## Validator Testing
+## Validator Testing (the code, before going live)
 - W3C Markup Validator
   - Flagged the following: Duplicate ID carouselExampleIndicators.  (which was being used by my four carousels, I changed their Id's to make them individual solving the validator error).
   <br>
 - W3C CSS Validator
   - Was clean.
+
+## Validator Testing (live cloud)
+- [W3C Markup Validator] **Document checking completed. No errors or warnings to show.** (https://validator.w3.org/nu/?doc=https%3A%2F%2Fstevebesgrove.github.io%2FMileStoneProject-TheGamer%2F/)
+  <br>
+- [W3C CSS Validator] **Congratulations! No Error Found.** (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstevebesgrove.github.io%2FMileStoneProject-TheGamer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en/)
 
 # Deployment
 
